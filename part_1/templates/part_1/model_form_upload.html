@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!-- <form enctype="multipart/form-data" method="post" action="/foo/"> -->
+  <form method="post" enctype="multipart/form-data" action = "/tweet/">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Upload</button>
+  </form>
+
+  <p><a href="{% url 'home' %}">Return to home</a></p>
+{% endblock %}
