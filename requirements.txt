@@ -3,7 +3,7 @@ asyncio==3.4.3
 certifi==2018.10.15
 chardet==3.0.4
 cryptography==1.9
-Django==1.11.16
+Django==1.11.23
 enum34==1.1.6
 gyp==0.1
 idna==2.7
