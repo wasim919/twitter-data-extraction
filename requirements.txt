@@ -10,7 +10,7 @@ idna==2.7
 ipaddress==1.0.17
 keyring==10.4.0
 keyrings.alt==2.2
-numpy==1.15.2
+numpy==1.22.0
 oauthlib==2.1.0
 panda==0.3.1
 pandas==0.23.4
