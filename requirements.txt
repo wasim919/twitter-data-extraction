@@ -1,6 +1,6 @@
 asn1crypto==0.22.0
 asyncio==3.4.3
-certifi==2018.10.15
+certifi==2022.12.7
 chardet==3.0.4
 cryptography==1.9
 Django==1.11.16
